@@ -4,7 +4,12 @@ import Categories from './Categories'
 import items from './data'
 
 function App() {
-  return <Menu />
+  return (
+    <div>
+      <Menu />
+      <Categories />
+    </div>
+  )
 }
 
 export default App
